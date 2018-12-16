@@ -6,6 +6,8 @@
     border-width: 0.1px;
 	border-bottom-color: #DCDCDC;
 }
+
+	
 #logo {
 	margin: auto;
 	float: left;
@@ -16,38 +18,32 @@
 }
 nav{
 	background-color: #DB0007;
-    float: center;
-    margin: 0;
-    overflow: hidden;
-    text-align: center;
+	padding: 1px;
+	overflow: hidden;
 }
-
-nav ul{
-    margin: 00;
-    padding: 00;
-}
-
-nav ul li{
-    display: inline-block;
-	padding: 8px 100px 10px;
-    list-style-type: none;
-}
-
-nav > ul > li > a{
-	font-family: "ff-meta-web-pro",sans-serif;
-	text-transform: uppercase;
-    color: white;
-    display: block;
-    line-height: 20px;
-    padding: 10px 10px;
-    text-decoration: none;
-}
-
-nav > ul > li > a:hover {
-	background-color: #FFFFFF;
-	color: black;
-	padding: 10px;
-}
+    nav ul{
+        background: #DB0007;
+        max-height: 0px;
+        width: 100%;
+		overflow: hidden;
+    }
+    nav ul.show{
+        max-height: 50em;
+		width: 100%;
+		overflow: hidden;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+		overflow: hidden;
+    }
+	.hb-button{
+        display: inline;
+    float:left;
+	left: -40%;
+	}
+	
 
 body {
 	margin: 0;
@@ -68,8 +64,8 @@ body {
 
 
 #slider{overflow:hidden;width:100%;}
-#slider figure img{width:20%;float:left;}
-#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite}
+#slider figure img{width:20%;float:left;height:100%;}
+#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite;height:100%;}
 @media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: auto;}}
 .button{
 	display: none;
@@ -96,8 +92,21 @@ body {
 	margin: auto;
 	float: left;
 	position: relative;
+	height: 5%;
+	width: 10%;
 }
 
+.hb-button {
+    float: right;
+    background: #222;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
 
 nav{
 	background-color: #DB0007;
@@ -113,6 +122,7 @@ nav ul{
 }
 
 nav ul li{
+	
     display: inline-block;
 	padding: 8px 100px 10px;
     list-style-type: none;
@@ -156,6 +166,17 @@ body {
 #slider figure img{width:20%;float:left;}
 #slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite}
 @media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: 0 auto;}}
+
+.hb-button {
+		float: center;
+		background: #222;
+		color: #ffffff;
+		border: none;
+		font-size:18px;
+		padding: 5px 10px;
+		border-radius: 3px;
+		cursor: pointer;
+		display: none;
 }
 
 
