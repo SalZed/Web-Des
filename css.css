@@ -1,0 +1,161 @@
+@media screen and (max-width: 767px) and (min-width: 400px) {
+	header {
+	background-color: #EF0107;
+	overflow: hidden;
+	border-bottom-style: solid;
+    border-width: 0.1px;
+	border-bottom-color: #DCDCDC;
+}
+#logo {
+	margin: auto;
+	float: left;
+	right: -40%;
+	position: relative;
+	height: 10%;
+	width: 20%;
+}
+nav{
+	background-color: #DB0007;
+    float: center;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 00;
+    padding: 00;
+}
+
+nav ul li{
+    display: inline-block;
+	padding: 8px 100px 10px;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+	font-family: "ff-meta-web-pro",sans-serif;
+	text-transform: uppercase;
+    color: white;
+    display: block;
+    line-height: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	background-color: #FFFFFF;
+	color: black;
+	padding: 10px;
+}
+
+body {
+	margin: 0;
+}
+
+@keyframes slideshow {
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -300%;}
+	100% {left: -300%;}
+}
+
+
+#slider{overflow:hidden;width:100%;}
+#slider figure img{width:20%;float:left;}
+#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite}
+@media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: auto;}}
+.button{
+	display: none;
+}
+.Middle-above{
+	display:none;
+}
+.Middle-under{
+	display:none;
+}
+}
+
+@media screen and (min-width: 767px){
+	header {
+	background-color: #EF0107;
+	overflow: hidden;
+	border-bottom-style: solid;
+    border-width: 0.1px;
+	border-bottom-color: #DCDCDC;
+}
+
+
+#logo {
+	margin: auto;
+	float: left;
+	position: relative;
+}
+
+
+nav{
+	background-color: #DB0007;
+    float: center;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 00;
+    padding: 00;
+}
+
+nav ul li{
+    display: inline-block;
+	padding: 8px 100px 10px;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+	font-family: "ff-meta-web-pro",sans-serif;
+	text-transform: uppercase;
+    color: white;
+    display: block;
+    line-height: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	background-color: #FFFFFF;
+	color: black;
+	padding: 10px;
+}
+
+body {
+	margin: 0;
+}
+
+@keyframes slideshow {
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -300%;}
+	100% {left: -300%;}
+}
+
+
+#slider{overflow:hidden;width:100%;}
+#slider figure img{width:20%;float:left;}
+#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite}
+@media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: 0 auto;}}
+}
+
+
