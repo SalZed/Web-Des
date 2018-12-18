@@ -11,14 +11,14 @@
 #logo {
 	margin: auto;
 	float: left;
-	right: -40%;
+	right: -45%;
 	position: relative;
 	height: 10%;
 	width: 20%;
 }
 nav{
 	background-color: #DB0007;
-	padding: 1px;
+	padding: 3px;
 	overflow: hidden;
 }
     nav ul{
@@ -38,11 +38,20 @@ nav{
         padding: 15px;
 		overflow: hidden;
     }
-	.hb-button{
-        display: inline;
-    float:left;
-	left: -40%;
-	}
+	nav > .hb-button{
+	position:relative;
+	top: 7%;
+	left:50%;
+	display: inline-block;
+	float: left;
+    background: #222;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 	
 
 body {
@@ -64,9 +73,9 @@ body {
 
 
 #slider{overflow:hidden;width:100%;}
-#slider figure img{width:20%;float:left;height:100%;}
-#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite;height:100%;}
-@media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: auto;}}
+#slider figure img{width:20%;float:left;height:600px;}
+#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite;}
+@media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%;}}
 .button{
 	display: none;
 }
