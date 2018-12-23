@@ -107,7 +107,7 @@ body {
 @media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%;}}
 .button1 > a {
 position: absolute;
-top: 75%;
+top: 80%;
 left: 21%;
 font-family: "ff-meta-web-pro",sans-serif;
 font-size: 50px;
@@ -118,7 +118,7 @@ text-decoration: none;
 }
 .Middle-above{
 	position: absolute;
-	top: 55%;
+	top: 60%;
     left: 18%;
 	font-family: sans-serif;
 	color: white;
