@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px){
+@media screen and (max-width: 500px){
 	header {
 	background-color: #EF0107;
 	overflow: hidden;
@@ -11,10 +11,10 @@
 #logo {
 	margin: auto;
 	float: left;
-	right: -45%;
+	right: -40%;
 	position: relative;
-	height: 10%;
-	width: 20%;
+	height: 15%;
+	width: 25%;
 }
 nav{
 	background-color: #DB0007;
@@ -35,13 +35,13 @@ nav{
     nav ul li{
         box-sizing: border-box;
         width: 100%;
-        padding: 15px;
+        padding: 10px;
 		overflow: hidden;
+		display: inline-block
     }
 	nav > .hb-button{
 	position:relative;
-	top: 7%;
-	left:50%;
+	left:46%;
 	display: inline-block;
 	float: left;
     background: #222;
@@ -51,6 +51,34 @@ nav{
     padding: 5px 10px;
     border-radius: 10px;
     cursor: pointer;
+}
+nav a {
+	font-family: "ff-meta-web-pro",sans-serif;
+	text-transform: uppercase;
+    color: white;
+    line-height: 20px;
+    padding: 10px 10px 0px 0px;
+    text-decoration: none;
+}
+#first {
+	position: relative;
+	left: 34%;
+	float: left;
+}
+#second {
+	position: relative;
+	left: 33%;
+	float: left;
+}
+#third {
+	position: relative;
+	left: 32%;
+	float: left;
+}
+#fourth {
+	position: relative;
+	left: 32%;
+	float: left;
 }
 	
 
@@ -77,11 +105,24 @@ body {
 #slider figure img{width:20%;float:left;height:600px;}
 #slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite;}
 @media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%;}}
-.button{
-	display: none;
+.button1 > a {
+position: absolute;
+top: 75%;
+left: 21%;
+font-family: "ff-meta-web-pro",sans-serif;
+font-size: 50px;
+color: white;
+padding: 6px 6px 6px 6px;
+text-transform: uppercase;
+text-decoration: none;
 }
 .Middle-above{
-	display:none;
+	position: absolute;
+	top: 55%;
+    left: 18%;
+	font-family: sans-serif;
+	color: white;
+	font-size: 80px;
 }
 .Middle-under{
 	display:none;
@@ -149,9 +190,9 @@ nav > ul > li > a{
 }
 
 nav > ul > li > a:hover {
-	background-color: #FFFFFF;
-	color: black;
-	padding: 10px;
+	border-bottom:2px solid #fff;
+	color: white;
+	padding: 7px;
 }
 
 body {
