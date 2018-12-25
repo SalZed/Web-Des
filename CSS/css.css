@@ -1,0 +1,238 @@
+@media screen and (max-width: 767px){
+	header {
+	background-color: #EF0107;
+	overflow: hidden;
+	border-bottom-style: solid;
+    border-width: 0.1px;
+	border-bottom-color: #DCDCDC;
+}
+
+	
+#logo {
+	margin: auto;
+	float: left;
+	right: -40%;
+	position: relative;
+	height: 15%;
+	width: 25%;
+}
+nav{
+	background-color: #DB0007;
+	padding: 3px;
+	overflow: hidden;
+}
+    nav ul{
+        background: #DB0007;
+        max-height: 0px;
+        width: 100%;
+		overflow: hidden;
+    }
+    nav ul.show{
+        max-height: 50em;
+		width: 100%;
+		overflow: hidden;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+		overflow: hidden;
+		display: inline-block
+    }
+	nav > .hb-button{
+	position:relative;
+	left:46%;
+	display: inline-block;
+	float: left;
+    background: #222;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+nav a {
+	font-family: "ff-meta-web-pro",sans-serif;
+	text-transform: uppercase;
+    color: white;
+    line-height: 20px;
+    padding: 10px 10px 0px 0px;
+    text-decoration: none;
+}
+#first {
+	position: relative;
+	left: 34%;
+	float: left;
+}
+#second {
+	position: relative;
+	left: 33%;
+	float: left;
+}
+#third {
+	position: relative;
+	left: 32%;
+	float: left;
+}
+#fourth {
+	position: relative;
+	left: 32%;
+	float: left;
+}
+#fifth {
+	position: relative;
+	left: 32%;
+	float:left;
+}
+	
+
+body {
+	margin: 0;
+	z-index:-1;
+}
+
+@keyframes slideshow {
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -300%;}
+	100% {left: -300%;}
+}
+
+
+#slider{overflow:hidden;width:100%;}
+#slider figure img{width:20%;float:left;height:600px;}
+#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite;}
+@media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%;}}
+.button1 > a {
+position: absolute;
+top: 80%;
+left: 21%;
+font-family: "ff-meta-web-pro",sans-serif;
+font-size: 50px;
+color: white;
+padding: 6px 6px 6px 6px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.Middle-above{
+	position: absolute;
+	top: 60%;
+    left: 18%;
+	font-family: sans-serif;
+	color: white;
+	font-size: 80px;
+}
+.Middle-under{
+	display:none;
+}
+}
+
+@media screen and (min-width: 767px){
+	header {
+	background-color: #EF0107;
+	overflow: hidden;
+	border-bottom-style: solid;
+    border-width: 0.1px;
+	border-bottom-color: #DCDCDC;
+}
+
+
+#logo {
+	margin: auto;
+	left:1px;
+	float: left;
+	position: relative;
+	height: 5%;
+	width: 10%;
+}
+
+.hb-button {
+    float: right;
+    background: #222;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+	background-color: #DB0007;
+    float: center;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 00;
+    padding: 00;
+}
+
+nav ul li{
+    display: inline-block;
+	padding: 10px 70px 10px 70px;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+	font-family: "ff-meta-web-pro",sans-serif;
+	text-transform: uppercase;
+    color: white;
+    display: block;
+    line-height: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	border-bottom:2px solid #fff;
+	color: white;
+	padding: 7px;
+}
+
+body {
+	margin: 0;
+}
+
+@keyframes slideshow {
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -300%;}
+	100% {left: -300%;}
+}
+
+
+#slider{overflow:hidden;width:100%;}
+#slider figure img{width:20%;float:left;}
+#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite}
+@media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: 0 auto;}}
+
+.hb-button {
+		float: center;
+		background: #222;
+		color: #ffffff;
+		border: none;
+		font-size:18px;
+		padding: 5px 10px;
+		border-radius: 3px;
+		cursor: pointer;
+		display: none;
+}
+
+

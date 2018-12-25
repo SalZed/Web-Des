@@ -1,0 +1,141 @@
+body #Headers h2{
+	padding-top: 10px;
+	left: 45%;
+	color: #696969;
+position: relative;
+font-family: "ff-meta-web-pro",sans-serif;
+}
+body #Headers h1{
+	left: 35%;
+position: relative;
+font-family: "ff-meta-web-pro",sans-serif;
+}
+#Headers {
+	overflow:hidden;
+	border-top-style: solid;
+	border-top-color: #EF0107;
+	border-top-width: 5px;
+Margin: 50px;
+width: 75%;
+height: 50%;
+background-color: white;
+left: 10%;
+position: relative;
+}
+#Headers img{
+	left: 30%;
+Margin-left: 50px;
+height: 30%;
+	width: 30%;
+position: relative;
+}
+.head1 {
+	font-family: "ff-meta-web-pro",sans-serif;
+	padding-left: 100px;
+	overflow:hidden;
+}
+
+.chairman {
+	
+	overflow:hidden;
+	border-top-style: solid;
+	border-top-color: #EF0107;
+	border-top-width: 5px;
+Margin: 50px;
+width: 65%;
+height: 50%;
+background-color: white;
+left: 10%;
+position: relative;
+margin-bottom:70px;
+}
+.chairman img{ 
+float:left;
+position:realtive;
+left: 30%;
+	width:100%;
+}
+.chairman h3 {
+	float:left;
+	position:relative;
+	left:20px;
+	font-family: "ff-meta-web-pro",sans-serif;
+}
+
+#ownership{
+	margin-left: 20%;
+	font-family: "ff-meta-web-pro",sans-serif;
+    font-weight: bold;
+    letter-spacing: 0;
+	font-size: 20px;
+    color: #454d59;
+	margin-bottom:10px;
+}
+
+.text {
+	font-size: 18px;
+    color: #454d59;
+    line-height: 31px;
+    margin-bottom: 70px;
+	font-family: "ff-meta-web-pro",sans-serif;
+	position:relative;
+	margin-left:20%;
+	margin-right:25%;
+}
+
+@media screen and (max-width: 767px){
+body #Headers h2{
+	padding-top: 3%;
+	left: 35%;
+	color: #696969;
+position: relative;
+font-family: "ff-meta-web-pro",sans-serif;
+}
+body #Headers h1{
+	left: 15%;
+position: relative;
+font-family: "ff-meta-web-pro",sans-serif;
+}
+#Headers {
+	overflow:hidden;
+	border-top-style: solid;
+	border-top-color: #EF0107;
+	border-top-width: 5px;
+Margin-top: 50px;
+overflow:hidden;
+width: 100%;
+height: 50%;
+background-color: white;
+float:left;
+left:-50px;
+position: relative;
+}
+#Headers img{
+	left: 22%;
+height: 30%;
+	width: 30%;
+position: relative;
+}
+.head1 {
+	font-family: "ff-meta-web-pro",sans-serif;
+	padding-left: 20px;
+	font-size:12px;
+	overflow:hidden;
+}
+.chairman {
+	
+	overflow:hidden;
+	border-top-style: solid;
+	border-top-color: #EF0107;
+	border-top-width: 5px;
+Margin-top:10px;
+float:left;
+left:-15%;
+width: 100%;
+height: 50%;
+background-color: white;
+position: relative;
+margin-bottom:70px;
+}
+
+}
