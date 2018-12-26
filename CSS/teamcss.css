@@ -22,3 +22,9 @@
 		overflow: hidden;
 	}
 }
+
+@media screen and (max-width:767px){
+	#sticky{
+display:none;
+}}
+
