@@ -12,5 +12,10 @@ body{
   font-size:18px;
   text-align:center;
   position:relative; 
-  border-top:1px solid whitesmoke; 
+  border-top:1px solid whitesmoke;
+float:left;
+padding-left:100px;
+padding-right:100px;
+right:10%;
+ 
 }
